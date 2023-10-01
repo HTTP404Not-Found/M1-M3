@@ -1,5 +1,3 @@
 un1 = int(input())
 un2 = int(input())
-#un1 = int(un1)
-#un2 = int(un2)
 print(un1 + un2,'\n', un1 - un2, '\n', un1 * un2, '\n',)

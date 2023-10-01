@@ -1,9 +1,16 @@
 text = str(input())
-text = str((int(text) + 7) % 10)
+text = list(text)
+i = 0
+while i < 4:
+    text[i] = str((int(text[i]) + 7) % 10 )
+    i += 1
 
-print(text , '\n' )
 t = text[0] 
 text [0] = text [2]
-text [2] = t
+text[2] =t
 
-print(text , '\n' )
+t = text[1]
+text [1] = text[3]
+text [3] = t
+
+print(''.join(text) , '\n' )

@@ -1,1 +1,2 @@
-print(50 // 50)
+print("{:.3f}".format(3))
+print()

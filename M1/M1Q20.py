@@ -17,8 +17,3 @@ else:
     un3 =  un3 - un3 // 1
     
     print(x3,'\n',x2,'\n',x1,'\n')
-    
-    
-    
-    
-    

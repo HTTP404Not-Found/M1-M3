@@ -1,0 +1,6 @@
+un1 = int(input())
+y = 1 
+for x in range(un1  , 0 , -1 ):
+    print(" "  * x,end="")
+    print("*" * y)
+    y = y+2

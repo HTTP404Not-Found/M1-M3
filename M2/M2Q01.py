@@ -1,8 +1,0 @@
-a = float(input())
-b = float(input())
-c = float(input())
-d = float(input())
-e = float(input())
-print("max=",'\n',"{:.2f}{}".format(max(a,b,c,d,e)))
-print("min=","{:.2f}".format(min(a,b,c,d,e)))
-print()
